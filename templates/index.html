@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+</head>
+list = {{ list }}
+<body>
+    <h1>To Do List:</h1>
+    {% for task in list %}
+        <p>{{ task }}</p>
+    {% endfor %}
+</body>
+</html>
